@@ -79,3 +79,6 @@ Coloque também no header:
 
 Accept : application/json
 
+# Rodar teste unitario
+
+php artisan test tests/Feature/LivroTest.php

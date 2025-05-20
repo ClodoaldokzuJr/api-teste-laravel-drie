@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DocumentoController;
+use App\Http\Controllers\LivroController;
 
 Route::middleware('apiToken')->group(function () {
     Route::get('/documentos', [DocumentoController::class, 'index']);
